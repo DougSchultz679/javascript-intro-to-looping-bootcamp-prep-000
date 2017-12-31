@@ -35,7 +35,7 @@ describe('loops', () => {
 
       const testArray = strangeArray.slice(array.length)
 
-      for (let i = 0, l = testArray.length; i < l; i++) {
+      for (let i = 0; i < testArray.length; i++) {
         let s;
         if (i===1){s="I am 1 strange loop."}else{s=`I am ${i} strange loops.`}
         expect(testArray[i]).to.equal(s)
