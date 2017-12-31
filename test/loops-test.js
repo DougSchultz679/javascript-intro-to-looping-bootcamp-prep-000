@@ -37,7 +37,7 @@ describe('loops', () => {
 
       for (let i = 0; i < testArray.length; i++) {
         let s;
-        if (i===1){s="I am 1 strange loop."}else{s=`I am ${i} strange loops.`}
+        if (i===1){s="I am 0 strange loops."}else{s=`I am 0 strange loops.`}
         expect(testArray[i]).to.equal(s)
       }
     })
