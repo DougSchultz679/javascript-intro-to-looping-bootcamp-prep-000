@@ -5,9 +5,8 @@ function forLoop(array){
     else{result.push(`I am ${i} strange loops.`)}}
   console.log(result);console.log(array);return result;}
 
-function whileLoop(number){
-  while(i>0){i
-    console.log(`Countdown counter at: ${number}`);number--;}return'done';}
+function whileLoop(n){
+  while(n>0){console.log(`Countdown counter at: ${n}`);n--;}return'done';}
     
     let testArray=[1,2,3,4,5,6,7];
   
