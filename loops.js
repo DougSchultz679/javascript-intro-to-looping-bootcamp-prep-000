@@ -9,6 +9,7 @@ function whileLoop(n){
   while(n>0){console.log(`Countdown counter at: ${n}`);n--;}return'done';}
     
     let testArray=[1,2,3,4,5,6,7];
+    
 function maybeTrue(){return Math.random()>=0.5}
   
 function doWhileLoop(array){
