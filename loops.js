@@ -11,8 +11,9 @@ function whileLoop(n){
     let testArray=[1,2,3,4,5,6,7];
   
 function doWhileLoop(array){
+  function maybeTrue(){return Math.random()>=0.5}
+  do{array.pop()}while(array.length>0&&maybeTrue())}
   
-}
 //whileLoop(5);
  // forLoop(testArray);
   //console.log(testArray);
