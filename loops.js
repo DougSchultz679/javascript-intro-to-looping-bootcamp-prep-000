@@ -15,6 +15,7 @@ function doWhileLoop(array){
   do{array.pop()}while(array.length>0&&maybeTrue())}
 
 console.log(maybeTrue());
+console.log(doWhileLoop(testArray));
 
 //whileLoop(5);
  // forLoop(testArray);
